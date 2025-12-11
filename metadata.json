@@ -1,0 +1,5 @@
+{
+  "name": "Reflekt AI",
+  "description": "Smart Text Enhancer & AI Recommender Chrome Extension using Gemini API",
+  "requestFramePermissions": []
+}

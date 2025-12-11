@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Reflekt AI - Smart Text Enhancer",
+  "version": "1.0.0",
+  "description": "Turn rough text into AI-ready prompts and get smart tool recommendations.",
+  "permissions": [
+    "storage",
+    "alarms",
+    "notifications"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Reflekt AI"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval' https://cdn.tailwindcss.com; object-src 'self'"
+  }
+}
